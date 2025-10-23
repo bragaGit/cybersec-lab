@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Editor / macOS
+.DS_Store
+*.swp
+
+# Large / sensitive files
+*.pcap
+*.pcapng
+test_dns.pcap
+*.pcap*
+*.pcapng*
+*.csv
+dns_findings.txt
+out.txt
+
+# Secrets and environment
+.env
+*.key
+*.pem
+
+# Bytecode, caches
+.pytest_cache/
