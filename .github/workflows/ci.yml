@@ -1,4 +1,4 @@
-python-version: "3.12"
+python-version: "3.10"
 name: CI
 
 on: [push, pull_request]
@@ -19,12 +19,18 @@ jobs:
       - name: Smoke test scripts
         run: |
           python -m py_compile *.py
-python-version: "3.12"
+python-version: "3.10"
+
+- name: Set up Python
+  uses: actions/setup-python@v4
+  with:
+    python-version: "3.10"
+
 
 
 
 python-version: 3.12
 
-python-version: "3.12"
+python-version: "3.10"
 
 
