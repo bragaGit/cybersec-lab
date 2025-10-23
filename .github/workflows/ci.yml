@@ -23,4 +23,3 @@ jobs:
 
       - name: Run syntax check
         run: python -m py_compile *.py
-
